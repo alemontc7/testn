@@ -63,6 +63,9 @@ describe("Multiplicar", () => {
     expect(multiplicar(2,500)).toEqual(1000);
   });
   it("deberia multiplicar dos numeros", () => {
+    expect(multiplicar(2,213)).toEqual(426);
+  });
+  it("deberia multiplicar dos numeros", () => {
     expect(multiplicar(2,213)).toEqual(240);
   });
 });
