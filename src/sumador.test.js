@@ -48,16 +48,19 @@ describe("Multiplicar", () => {
     expect(multiplicar(2,30)).toEqual(60);
   });
   it("deberia multiplicar dos numeros", () => {
-    expect(multiplicar(2,30)).toEqual(600);
+    expect(multiplicar(2,30)).toEqual(60);
   });
   it("deberia multiplicar dos numeros", () => {
-    expect(multiplicar(2,30)).toEqual(6012);
+    expect(multiplicar(4,30)).toEqual(120);
   });
   it("deberia multiplicar dos numeros", () => {
-    expect(multiplicar(2,30)).toEqual(600);
+    expect(multiplicar(2,30)).toEqual(60);
   });
   it("deberia multiplicar dos numeros", () => {
-    expect(multiplicar(2,120)).toEqual(600);
+    expect(multiplicar(2,120)).toEqual(240);
+  });
+  it("deberia multiplicar dos numeros", () => {
+    expect(multiplicar(2,123712)).toEqual(240);
   });
 });
 
