@@ -20,6 +20,12 @@ describe("Restar", () => {
   it("deberia Restar dos numeros", () => {
     expect(restar(3,2)).toEqual(1);
   });
+  it("deberia Restar dos numeros", () => {
+    expect(restar(10,2)).toEqual(8);
+  });
+  it("deberia Restar dos numeros", () => {
+    expect(restar(100,2)).toEqual(98);
+  });
 });
 
 describe("Multiplicar", () => {
