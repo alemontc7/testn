@@ -14,6 +14,9 @@ describe("Sumar", () => {
   it("deberia sumar dos numeros", () => {
     expect(sumar(3, 2, 1)).toEqual(6);
   });
+  it("deberia sumar dos numeros", () => {
+    expect(sumar(3, 2, 20)).toEqual(25);
+  });
 });
 
 describe("Restar", () => {
