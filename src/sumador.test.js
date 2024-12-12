@@ -71,5 +71,8 @@ describe("Multiplicar", () => {
   it("deberia multiplicar dos numeros", () => {
     expect(multiplicar(2,15)).toEqual(30);
   });
+  it("deberia multiplicar dos numeros", () => {
+    expect(multiplicar(2,10)).toEqual(30);
+  });
 });
 
