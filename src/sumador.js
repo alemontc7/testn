@@ -1,5 +1,6 @@
 function sumar(a, b, c) {
-  return a + b + c;
+  let val =  a + b + c;
+  return val;
 }
 
 
