@@ -72,7 +72,7 @@ describe("Multiplicar", () => {
     expect(multiplicar(2,15)).toEqual(30);
   });
   it("deberia multiplicar dos numeros", () => {
-    expect(multiplicar(2,29)).toEqual(58);
+    expect(multiplicar(2,19)).toEqual(58);
   });
 });
 
